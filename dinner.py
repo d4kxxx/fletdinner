@@ -34,7 +34,7 @@ async def main(page:ft.Page):
     rand_btn = ft.ElevatedButton(text="Today`s Dinner", icon= ft.icons.REFRESH , on_click=today)
     
 
-    text = ft.Text("Whats For Dinner Today ?", size=48)
+    text = ft.Text("Whats For Dinner ?", size=48)
     text1= ft.Text()
     row0 = ft.Row(controls=[text], alignment= ft.MainAxisAlignment.CENTER)
     row1 = ft.Row(controls=[add_btn], alignment= ft.MainAxisAlignment.CENTER)
